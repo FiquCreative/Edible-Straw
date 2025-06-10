@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #347928;
+    opacity: 0.95; 
+    height: 120px;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+    z-index: 1000; 
+}
+
+header h1 {
+    margin-bottom: 30px; 
+}
+
+header nav {
+    margin-top: 20px; 
+}
+
+h2{
+    text-align: center; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #009640;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100;
+}
+
+#home {
+    background-image: url("https://cdn.shopify.com/s/files/1/0564/9321/1807/articles/Cover_619890a3-7c93-4d57-be4f-1c12fb202499.png?v=1706601911");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    background-color: #E4EFE7;
+    width: 100%;
+    height: 17cm;
+    margin-top: 0;     
+    margin-bottom: 60px;
+    padding-top: 130px; 
+    position: relative;
+}
+
+#home h2 {
+    margin-top: 0;
+    padding-top: 100px;
+}
+
+#home .blur-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 0;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); 
+    pointer-events: none;
+}
+
+#home .overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(255,255,255,0.36); 
+    z-index: 1;
+    pointer-events: none;
+}
+
+#home h2,
+#home p {
+    position: relative;
+    z-index: 2;
+}
+
+#how-to-make {
+    background: #009640;
+    padding: 100px;
+    margin: 100px;
+    border-radius: 50px;
+}
+
+#kelebihan\ \&\ kekurangan {
+    background-image: url("https://incredibleeats.com/cdn/shop/files/9ac832f4-0b46-4ba4-8d7b-04764f196f3a_1024x1024.jpg?v=1671037584");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    background-color: #E4EFE7;
+    width: 100%;
+    height: 17cm;
+    margin-top: 0;  
+    margin-bottom: 60px;
+    position: relative;
+}
+
+#kelebihan\ \&\ kekurangan .blur-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 0;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); 
+    pointer-events: none;
+}
+
+#kelebihan\ \&\ kekurangan .overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(255,255,255,0.5);
+    z-index: 1;
+    pointer-events: none;
+}
+
+#kelebihan\ \&\ kekurangan h2,
+#kelebihan\ \&\ kekurangan p,
+#kelebihan\ \&\ kekurangan ul {
+    position: relative;
+    z-index: 2;
+}
+
+#kelebihan\ \&\ kekurangan h2 {
+    padding-top: 100px;
+}
+
+#our-straws {
+    background: #1e5631;
+    padding: 100px;
+    margin: 100px;
+    border-radius: 50px;
+}
+
+#our-team {
+    background: #009640;
+    padding: 100px;
+    margin: 100px;
+    border-radius: 50px;
+}
+
+#our-team ul {
+    margin-bottom: 60px; 
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+p{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+li{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+iframe{
+    align-content: center ;
+}
+.center-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.produk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+    justify-items: center;
+}
+
+.produk-item {
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.produk-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    background: #fff;
+    border: 2px solid #e4efe7;
+}
